@@ -4,3 +4,90 @@
   height: 3054px;
 }
 
+hd {
+  color: var(--text-headline, #E1624F);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  align-self: stretch;
+}
+
+h1 {
+  color: var(--text-primary, #1B1B1B);
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+}
+
+h2 {
+  color: var(--text-primary, #1B1B1B);
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h3 {
+  color: var(--text-primary, #1B1B1B);
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: var(--text-secondary, #333);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#description {
+  color: var(--text-secondary, #333);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#footer {
+  color: var(--text-secondary, #333);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: Alice;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+ul {
+  color: var(--text-secondary, #333);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+li {
+  color: var(--accent-blue, #0C51A7);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+}
