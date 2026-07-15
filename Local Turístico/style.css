@@ -122,3 +122,23 @@ li {
   align-items: flex-start;
   gap: 64px;
 }
+
+#list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 48px;
+  align-self: stretch;
+}
+
+#mainimage {
+  height: 660px;
+  align-self: stretch;
+  border-radius: 28px;
+}
+
+#cardimage {
+  height: 350px;
+  align-self: stretch;
+  border-radius: 28px;
+}
