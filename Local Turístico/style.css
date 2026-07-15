@@ -1,7 +1,25 @@
-.maincontainer {
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 65px;
   padding: 88px 80px 48px 80px;
-  width: 1120px;
-  height: 3054px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 0px;
+  background-color: #d9d9d9;
 }
 
 hd {
@@ -53,9 +71,11 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0px;
 }
 
 .description {
+  width: 100%;
   color: var(--text-secondary, #333);
   text-align: center;
   font-family: "Open Sans";
@@ -83,6 +103,9 @@ ul {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  list-style-position: inside;
+  margin: 12px 0 0 0;
+  padding: 0;
 }
 
 li {
@@ -92,6 +115,18 @@ li {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 4px 0;
+}
+
+.maincontainer {
+  display: flex;
+  width: 1120px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1120px;
+  margin: 0 auto;
+  align-self: center;
 }
 
 .maintextcontainer {
@@ -109,13 +144,14 @@ li {
   gap: 2px;
 }
 
-.description+image {
+.descriptionplusimage {
   display: flex;
   padding: 4px 0;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  align-self: stretch;
+  width: 100%;
+  max-width: 1120px;
 }
 
 .contentlist {
@@ -126,6 +162,15 @@ li {
   gap: 64px;
 }
 
+.titlelist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+
 .list {
   display: flex;
   flex-direction: column;
@@ -135,13 +180,44 @@ li {
 }
 
 .mainimage {
+  width: 100%;
   height: 660px;
-  align-self: stretch;
+  object-fit: cover;
   border-radius: 28px;
 }
 
 .cardimage {
   height: 350px;
-  align-self: stretch;
+  object-fit: cover;
   border-radius: 28px;
+}
+
+#cardtravel01,
+#cardtravel02,
+.cardtravel03 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: stretch;
+}
+
+#cardtravel01 img,
+#cardtravel02 img,
+.cardtravel03 img {
+  width: 100%;
+  height: 350px;
+  flex-shrink: 0;
+}
+
+.contentcard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.lastparagraph {
+  text-align: center;
 }
