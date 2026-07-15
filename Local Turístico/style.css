@@ -1,4 +1,4 @@
-#maincontainer {
+.maincontainer {
   padding: 88px 80px 48px 80px;
   width: 1120px;
   height: 3054px;
@@ -23,6 +23,7 @@ h1 {
   font-weight: 700;
   line-height: normal;
   align-self: stretch;
+  margin: 0px;
 }
 
 h2 {
@@ -32,6 +33,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 0px;
 }
 
 h3 {
@@ -41,6 +43,7 @@ h3 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 0px;
 }
 
 p {
@@ -52,7 +55,7 @@ p {
   line-height: normal;
 }
 
-#description {
+.description {
   color: var(--text-secondary, #333);
   text-align: center;
   font-family: "Open Sans";
@@ -62,7 +65,7 @@ p {
   line-height: normal;
 }
 
-#footer {
+.footer {
   color: var(--text-secondary, #333);
   font-variant-numeric: lining-nums tabular-nums;
   font-feature-settings: 'liga' off, 'clig' off;
@@ -91,7 +94,7 @@ li {
   line-height: normal;
 }
 
-#maintextcontainer {
+.maintextcontainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -99,14 +102,14 @@ li {
   align-self: stretch;
 }
 
-#title {
+.title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2px;
 }
 
-#description+image {
+.description+image {
   display: flex;
   padding: 4px 0;
   flex-direction: column;
@@ -115,7 +118,7 @@ li {
   align-self: stretch;
 }
 
-#contentlist {
+.contentlist {
   display: flex;
   width: 1120px;
   flex-direction: column;
@@ -123,7 +126,7 @@ li {
   gap: 64px;
 }
 
-#list {
+.list {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -131,13 +134,13 @@ li {
   align-self: stretch;
 }
 
-#mainimage {
+.mainimage {
   height: 660px;
   align-self: stretch;
   border-radius: 28px;
 }
 
-#cardimage {
+.cardimage {
   height: 350px;
   align-self: stretch;
   border-radius: 28px;
